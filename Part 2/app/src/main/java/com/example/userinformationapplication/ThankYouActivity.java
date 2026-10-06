@@ -1,5 +1,7 @@
 package com.example.userinformationapplication;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.widget.TextView;
 
@@ -23,9 +25,23 @@ public class ThankYouActivity extends AppCompatActivity {
         });
 
         String name = getIntent().getExtras().getString("name");
+        String email = getIntent().getExtras().getString("email");
+        int validationCode = getIntent().getExtras().getInt("code");
+
         TextView thankyouText = findViewById(R.id.thankYouText);
 
         thankyouText.setText("Thank you " + name + ", your request is being processed " );
+
+
+        String[] address = {email};
+        Intent emailIntent = new Intent(Intent.ACTION_SENDTO);
+        emailIntent.setData(Uri.parse("mailto"));
+
+        
+
+
+
+
 
     }
 }
