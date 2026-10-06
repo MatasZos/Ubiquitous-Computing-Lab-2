@@ -22,6 +22,11 @@ public class ThankYouActivity extends AppCompatActivity {
             return insets;
         });
 
+        String name = getIntent().getExtras().getString("name");
+        TextView thankyouText = findViewById(R.id.thankYouText);
+
+        thankyouText.setText("Thank you " + name + ", your request is being processed " );
+
     }
 }
 

@@ -6,7 +6,6 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
@@ -35,7 +34,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, ThankYouActivity.class);
 
         intent.putExtra("name", name);
-        
+
+        startActivity(intent);
+
     }
 
 }
