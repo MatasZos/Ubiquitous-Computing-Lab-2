@@ -37,7 +37,14 @@ public class ThankYouActivity extends AppCompatActivity {
         Intent emailIntent = new Intent(Intent.ACTION_SENDTO);
         emailIntent.setData(Uri.parse("mailto"));
 
-        
+        emailIntent.putExtra(Intent.EXTRA_EMAIL, address);
+        emailIntent.putExtra(Intent.EXTRA_SUBJECT, " Validation Code");
+        emailIntent.putExtra(Intent.EXTRA_TEXT, "Your validation code is: "+ validationCode);
+
+        if(emailIntent.resolveActivity(getPackageManager()) != null){
+            startActivity(emailIntent);
+        }
+
 
 
 
