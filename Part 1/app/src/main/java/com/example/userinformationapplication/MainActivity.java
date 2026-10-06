@@ -1,5 +1,6 @@
 package com.example.userinformationapplication;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -29,7 +30,12 @@ public class MainActivity extends AppCompatActivity {
     public void button1_click(View view){
 
         EditText editText = (EditText)findViewById(R.id.name);
-        Toast.makeText(this,"Thank you "+ editText.getText() + ", your request is being processed",Toast.LENGTH_LONG).show();
+        String name = editText.getText().toString();
+
+        Intent intent = new Intent(this, ThankYouActivity.class);
+
+        intent.putExtra("name", name);
+        
     }
 
 }
