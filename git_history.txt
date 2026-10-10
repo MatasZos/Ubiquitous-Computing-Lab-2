@@ -1,0 +1,65 @@
+commit b2fff3d4e8f554ff117fd79cc31b6eeca11244c6
+Author: MatasZos <B00163194@mytudublin.ie>
+Date:   Sat Oct 10 15:40:00 2026 +0100
+
+    implementing code validation and code input for second activity
+
+commit 42b2ff9c13fe80a482f12f9c4f8a5c7289c21450
+Author: MatasZos <B00163194@mytudublin.ie>
+Date:   Tue Oct 6 13:26:31 2026 +0100
+
+    what will be sent to the email (the email, the subject, and the text)
+
+commit 6c9a6fba715096bcbf32038c262c9b49b2f0fd6f
+Author: MatasZos <B00163194@mytudublin.ie>
+Date:   Tue Oct 6 13:21:05 2026 +0100
+
+    added email intent
+
+commit e45d17eab2547602c6a83bd845126b3f54381da3
+Author: MatasZos <B00163194@mytudublin.ie>
+Date:   Tue Oct 6 13:04:28 2026 +0100
+
+    adding in the email and random code number  intent
+
+commit dda516965934178a1aacce2ebbef2e9eeb6845db
+Author: MatasZos <B00163194@mytudublin.ie>
+Date:   Tue Oct 6 12:57:38 2026 +0100
+
+    initialise part 2
+
+commit 977062c375834ae1ee895244c2fb9f25eba03528
+Author: MatasZos <B00163194@mytudublin.ie>
+Date:   Tue Oct 6 12:52:02 2026 +0100
+
+    add in startactivity and add the other activities getIntent
+
+commit fb3ee6e0c743e59fadedd9a51018ea81b3ed9485
+Author: MatasZos <B00163194@mytudublin.ie>
+Date:   Tue Oct 6 12:36:32 2026 +0100
+
+    replacing toast with an intent
+
+commit b7b4b882931a8c75669e93296ec5712f5533e582
+Author: MatasZos <B00163194@mytudublin.ie>
+Date:   Tue Oct 6 12:32:57 2026 +0100
+
+    adding in a text view to the new activity
+
+commit 634a66c66ccddfdeb73c576404284df71eee2853
+Author: MatasZos <B00163194@mytudublin.ie>
+Date:   Wed Sep 30 12:49:08 2026 +0100
+
+    add new activity
+
+commit e77f01091df08961eee8ccf27c4f43996fd1660c
+Author: MatasZos <B00163194@mytudublin.ie>
+Date:   Wed Sep 30 12:14:07 2026 +0100
+
+    copy and pasting in lab 1 part 1 appllication
+
+commit 43cb8f99a8e9fffa646437ef1e038fd7223400cb
+Author: MatasZos <B00163194@mytudublin.ie>
+Date:   Wed Sep 30 12:12:44 2026 +0100
+
+    Initial commit
