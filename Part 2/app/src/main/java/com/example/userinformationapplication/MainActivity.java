@@ -46,8 +46,6 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra("email", email);
         intent.putExtra("code", validationCode);
 
-
-
         startActivity(intent);
 
     }
